@@ -119,9 +119,10 @@ def decrypt(priv_key, c_text):
 
 # Message
 message = input("What would you like encrypted or decrypted?(Separate numbers with ',' for decryption):")
+
 print("Your message is:", message)
 
-# Choose Encrypt or Decrypt and Print
+# Choose Encrypt or Decrypt
 choose = input("Type '1' for encryption and '2' for decrytion.")
 
 if(choose=='1'):
