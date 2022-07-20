@@ -14,17 +14,17 @@ The program is able to:
 
 ## Run the program
 
-`python main.py`
+```python main.py```
 
 You will need to set the brounderies for your range by:
 
-*Enter upper range:*
-*Enter lower range:*
+==*Enter upper range:*==
+==*Enter lower range:*==
 
 After running the algorithm, you will have the opportunity to enter a message to enrypt.
 
-*What would you like encrypted or decrypted?(Separate numbers with ',' for decryption.*
+==*What would you like encrypted or decrypted?(Separate numbers with ',' for decryption.*==
 
 You will also have the ability to choose between encryption and decryption.
 
-*Type '1' for encryption and '2' for decrytion.*
+==*Type '1' for encryption and '2' for decrytion.*==
