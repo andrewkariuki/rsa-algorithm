@@ -14,7 +14,9 @@ The program is able to:
 
 ## Run the program
 
-```python main.py```
+```shell
+python main.py
+```
 
 **You will need to set the brounderies for your range by:**
 
