@@ -1,6 +1,5 @@
 ''' RSA ALGORITHM. BY: ANDREW KARIUKI.'''
 
-import math
 import random
 
 print("RSA PROGRAM")
@@ -14,8 +13,8 @@ for i in range (l, u+1):
     for j in range(l, i):
         if i%j == 0:
             break
-    else:
-        p.append(i)
+        else:
+            p.append(i)
                  
 s = random.choices(p, k=2)
 
@@ -118,12 +117,12 @@ def decrypt(priv_key, c_text):
     return x
 
 # Message
-message = input("What would you like encrypted or decrypted?(Separate numbers with ',' for decryption):")
+message = input("What would you like encrypted or decrypted?(Separate numbers with ',' for decryption): \n")
 
-print("Your message is:", message)
+print("Your message is: \n", message)
 
 # Choose Encrypt or Decrypt
-choose = input("Type '1' for encryption and '2' for decrytion.")
+choose = input("Type '1' for encryption and '2' for decrytion: ")
 
 if(choose=='1'):
     enc_msg=encrypt(public,message)
@@ -135,6 +134,4 @@ elif(choose=='2'):
 else:
     print("You entered the wrong option.")
     print("Goodbye!")
-
-print('\n')
 print("*****************************************************\n")
